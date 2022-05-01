@@ -1,6 +1,6 @@
 from django.test import Client, TestCase
 
-# Create your tests here.
+
 class IndexTestCase(TestCase):
     def setUp(self) -> None:
         self.client = Client()
